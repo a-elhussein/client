@@ -1,0 +1,15 @@
+@if (!registerMode) {
+<h1>TEST</h1>
+<div class="text-center">
+    <button (click)="registerToggle()">Sign Up</button>
+</div>
+
+} @else {
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <app-register></app-register>
+        </div>
+    </div>
+</div>
+}
